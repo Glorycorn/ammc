@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0404;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #39cfe2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #1dc0f2;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+
+
+.recommended-rooms {
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.room-card {
+    background-color: rgb(5, 164, 119);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.room-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.view-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    background-color: rgba(75, 76, 75, 0.311);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+p {
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 20px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header-buttons a:hover {
+    background-color: #0056b3;
+}
+.room-image-medium {
+    width: 300px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits within the box */
+    border-radius: 8px; /* Optional: Rounded corners */
+    
+    /* Center the image horizontally */
+    display: block;
+    margin: 0 auto; /* This centers the image */
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
